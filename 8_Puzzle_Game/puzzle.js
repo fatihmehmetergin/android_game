@@ -124,7 +124,14 @@ function renkKaristir(){
 
 function renkKontrol()
 {
-    if(document.getElementById("b0").style.color=="red")
+    if(document.getElementById("b0").style.color=="red"&&
+       document.getElementById("b1").style.color=="red"&&
+       document.getElementById("b2").style.color=="red"&&
+       document.getElementById("b3").style.color=="red"&&
+       document.getElementById("b4").style.color=="red"&&
+       document.getElementById("b5").style.color=="red"&&
+       document.getElementById("b6").style.color=="red"&&
+       document.getElementById("b7").style.color=="red")
        {
         alert("Tebrikler,Oyunu KAZANDINIZ");
        }
